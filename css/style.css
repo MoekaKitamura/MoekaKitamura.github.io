@@ -1,0 +1,155 @@
+@import url('https://fonts.cdnfonts.com/css/gistesy');
+
+html {
+  font-size: 85%;
+}
+body {
+  font-family: 'Avenir','メイリオ', 'Open Sans', sans-serif;
+  color: #767a6c;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px;
+  text-align: center;
+}
+h1{
+  font-weight: lighter;
+  letter-spacing: 0.6rem;
+}
+h2{
+  font-weight: lighter;
+  border-bottom: 1px solid #767a6c;
+  width: 200px;
+  margin: 30px auto;
+  line-height: 2rem;
+}
+p{
+  line-height: 2rem;
+  margin: 20px;
+}
+a{
+  color: #767a6c;
+  padding: 15px;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.5;
+}
+
+header{
+  height: 60px;
+  position: fixed;
+  top: 0;
+  background: #F4C7AB;
+  width: 100%;
+  z-index: -1;
+}
+nav ul{
+  display: flex;
+}
+li{
+  margin: 10px;
+  list-style: none;
+}
+
+.container{
+  background: #FFF5EB;
+  padding-bottom: 30px;
+}
+main{
+  margin-top: 60px;
+  height: 600px;
+}
+.top{
+  height: 300px;
+  background: #DEEDF0;
+  position: relative;
+}
+.icon{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.place{
+  font-size: 1.1rem;
+}
+.profile{
+  padding-top: 100px;
+}
+.social-icons{
+  margin: 30px;
+}
+section{
+  margin: 100px 0;
+}
+.small{
+  font-size: 0.5rem;
+  color: rgba(99, 99, 99, 0.884);
+  font-style: italic;
+}
+
+.to_portfolio{
+  position: relative;
+  padding: 100px;
+}
+.to_portfolio p{
+  vertical-align: bottom;
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
+}
+.scrolldown4{
+  position:absolute;
+  bottom:100px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  animation: arrowmove 2s ease-in-out infinite;
+}
+
+@keyframes arrowmove{
+    0%{bottom:180px;}
+    50%{bottom:200px;}
+    100%{bottom:180px;}
+}
+@media screen and (min-width:1025px){
+  .portfolio_area{
+    display: flex;
+  }
+  .ontrips, .description{
+    width: 50%;
+  }
+}
+.portfolio_area{
+  width: 90%;
+  margin: 0 auto;
+}
+.portfolio{
+  width:100%;
+  max-width: 100%;
+  height: auto;
+}
+h3{
+  font-weight: lighter;
+  padding-top: 5%;
+  font-family: 'Gistesy', sans-serif;
+  font-size: 3rem;
+}
+
+.twitter-follow-button{
+  margin-top: 100px;
+  opacity: 0.7;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background: #F4C7AB;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}

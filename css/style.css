@@ -65,8 +65,9 @@ main{
   position: relative;
 }
 .icon{
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  width: 40%;
+  height: auto;
   border-radius: 50%;
   position: absolute;
   bottom: -50px;
@@ -113,6 +114,11 @@ section{
     50%{top:45px;}
     100%{top:30px;}
 }
+
+.portfolio_area{
+  width: 90%;
+  margin: 0 auto;
+}
 @media screen and (min-width:1025px){
   .portfolio_area{
     display: flex;
@@ -121,14 +127,23 @@ section{
     width: 50%;
   }
 }
-.portfolio_area{
-  width: 90%;
-  margin: 0 auto;
-}
-.portfolio{
-  width:100%;
+.ontrips img{
+  width: 100%;
   max-width: 100%;
   height: auto;
+  position: relative;
+	top: 0;
+  padding: 10px 20px;
+  display: inline-block;
+  outline: none;
+  transition: all .3s;
+}
+.ontrips img:hover{
+  top: -3px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.ontrips a{
+  opacity: 1;
 }
 h3{
   font-weight: lighter;
@@ -151,5 +166,5 @@ footer{
   width: 100%;
   line-height: 50px;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }

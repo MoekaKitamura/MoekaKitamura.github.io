@@ -133,14 +133,11 @@ section{
   height: auto;
   position: relative;
 	top: 0;
-  padding: 10px 20px;
-  display: inline-block;
-  outline: none;
-  transition: all .3s;
+  transition: all .5s;
 }
 .ontrips img:hover{
   top: -3px;
-	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 3px #767a6c48;
 }
 .ontrips a{
   opacity: 1;

@@ -18,9 +18,12 @@ h1{
 h2{
   font-weight: lighter;
   border-bottom: 1px solid #767a6c;
-  width: 200px;
+  max-width: 200px;
   margin: 30px auto;
   line-height: 2rem;
+}
+h2 a:hover{
+  opacity: 1;
 }
 p{
   line-height: 2rem;
@@ -151,6 +154,15 @@ h3{
   margin: 3%;
 }
 
+.youtube a{
+  padding: 0;
+}
+@media screen and (max-width:560px){
+  .youtube iframe{
+    width: 100%;
+  }
+}
+
 .twitter-follow-button{
   margin-top: 100px;
   opacity: 0.6;
@@ -165,4 +177,7 @@ footer{
   line-height: 50px;
   text-align: center;
   font-size: 0.6rem;
+}
+.hide{
+  display: none;
 }
